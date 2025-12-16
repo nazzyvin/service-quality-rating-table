@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Service Quality Rating</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="form-container">
+            <header>
+                <div class="logo">
+                    <img src="bgt_lo.png" alt=" Company Logo">
+                </div>
+                <h2 class="title">SERVICE QUALITY RATING</h2>
+                
+                <div class="table-container">
+                    <!--Top Info Table-->
+                    <table class="info-table">
+                        <tbody>
+                            <tr class="job-ref">
+                                <td>Job Reference Number</td>
+                                <td><input type="text" class=" ref-no editable"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="info-table">
+                        <thead>
+                            <tr>
+                                <th>CLIENT</th>
+                                <th>WELL/FIELD</th>
+                                <th>DATE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input class="editable" type="text" placeholder="Client Name"></td>
+                                <td><input class="editable" type="text"></td>
+                                <td><input class="editable" type="date"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </header>
+                
+            <div class="table-container">
+                <!--RUN DETAILS TABLE-->
+                <table class="service-table">
+                    <thead>
+                        <tr>
+                            <th>RUN</th>
+                            <th>SERVICE</th>
+                            <th colspan="2" class="narrow">RIG UP</th>
+                            <th colspan="2" class="narrow">RIG DOWN</th>
+                            <th class="operating-time">OPERATING TIME</th>
+                            <th>CREW</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th class="narrow">DATE</th>
+                            <th class="narrow">TIME</th>
+                            <th class="narrow">DATE</th>
+                            <th class="narrow">TIME</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td><input type="number" pattern="[0-9]*" inputmode="numeric" class="run editable" value="1"></td>
+                            <td><textarea rows="3" cols="26"placeholder="Enter service..."></textarea></td>
+                            <td><input class="editable" type="date" ></td>
+                            <td><input class="editable" type="time"></td>
+                            <td><input class="editable" type="date"></td>
+                            <td><input class="editable" type="time"></td>
+                            <td><input type="text" class="editable operating-time" placeholder="7hrs 20mins"></td>
+                            <td><textarea rows="3"placeholder="Enter crew names..."></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" pattern="[0-9]*" inputmode="numeric" class="run editable" value="2"></td>
+                            <td><textarea rows="3"></textarea></td>
+                            <td><input class="editable" type="date"></td>
+                            <td><input class="editable" type="time"></td>
+                            <td><input class="editable" type="date"></td>
+                            <td><input class="editable" type="time"></td>
+                            <td><input type="text" class="editable operating-time"></td>
+                            <td><textarea rows="3"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" pattern="[0-9]*" inputmode="numeric" class="run editable" value="3"></td>
+                            <td><textarea rows="3"></textarea></td>
+                            <td><input class="editable" type="date"></td>
+                            <td><input class="editable" type="time"></td>
+                            <td><input class="editable" type="date"></td>
+                            <td><input class="editable" type="time"></td>
+                            <td><input type="text" class="editable operating-time"></td>
+                            <td><textarea rows="3"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" pattern="[0-9]*" inputmode="numeric" class="run editable" value="4"></td>
+                            <td><textarea rows="3"></textarea></td>
+                            <td><input class="editable" type="date"></td>
+                            <td><input class="editable" type="time"></td>
+                            <td><input class="editable" type="date"></td>
+                            <td><input class="editable" type="time"></td>
+                            <td><input type="text" class="editable operating-time"></td>
+                            <td><textarea rows="3"></textarea></td>
+                        <tr>
+                        <tr>
+                            <td><input type="number" pattern="[0-9]*" inputmode="numeric" class="run editable" value="5"></td>
+                            <td><textarea rows="3"></textarea></td>
+                            <td><input class="editable" type="date"></td>
+                            <td><input class="editable" type="time"></td>
+                            <td><input class="editable" type="date"></td>
+                            <td><input class="editable" type="time"></td>
+                            <td><input type="text" class="editable operating-time"></td>
+                            <td><textarea rows="3"></textarea></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><input type="number" pattern="[0-9]*" inputmode="numeric" class="run editable" value="6"></td>
+                            <td><textarea rows="3"></textarea></td>
+                            <td><input class="editable" type="date"></td>
+                            <td><input class="editable" type="time"></td>
+                            <td><input class="editable" type="date"></td>
+                            <td><input class="editable" type="time"></td>
+                            <td><input type="text" class="editable operating-time"></td>
+                            <td><textarea rows="3"></textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="number" pattern="[0-9]*" inputmode="numeric" class="run editable" value="7"></td>
+                            <td><textarea rows="3"></textarea></td>
+                            <td><input class="editable" type="date"></td>
+                            <td><input class="editable" type="time"></td>
+                            <td><input class="editable" type="date"></td>
+                            <td><input class="editable" type="time"></td>
+                            <td><input type="text" class="editable operating-time"></td>
+                            <td><textarea rows="3"></textarea></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="number" pattern="[0-9]*" inputmode="numeric" class="run editable" value="8"></td>
+                            <td><textarea rows="3"></textarea></td>
+                            <td><input class="editable" type="date"></td>
+                            <td><input class="editable" type="time"></td>
+                            <td><input class="editable" type="date"></td>
+                            <td><input class="editable" type="time"></td>
+                            <td><input type="text" class="editable operating-time"></td>
+                            <td><textarea rows="3"></textarea></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!--SCORING TABLE-->
+            <div class="scores-key">
+                <span>Score KEY:</span> A=Excellent, B=Very Good, C=Good, D=Satifactory, F=Unsatisfactory
+            </div>
+            <table class="scores-table">
+                <thead>
+                    <tr>
+                        <th>DESCRIPTION</th>
+                        <th class="scores">SCORE</th>
+                        <th class="comments">COMMENTS</th>
+                    </tr>    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SAFETY AWARENESS</td>
+                        <td>
+                            <select class="scores" id="safetyscore">
+                                <option value="">(Kindly select)</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                        </td>
+                        <td><input type="text" class="comments editable" placeholder="Comments..."></td>
+                    </tr>
+                    <tr>
+                        <td>PRE-JOB SAFETY MEETING</td>
+                        <td>
+                          <select class="scores" id="meetingscore">
+                                <option value="">(Kindy select)</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>  
+                        </td>
+                        <td><input type="text" class="comments editable"></td>
+                    </tr>
+                    <tr>
+                        <td>USE OF PPE</td>
+                        <td>
+                            <select class="scores" id="ppescore">
+                                <option value="">(Kindy select)</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                        </td>
+                        <td><input type="text" class="comments editable"></td>
+                    </tr>
+                    <tr>
+                        <td>KNOWLEDGE OF SERVICE</td>
+                        <td>
+                            <select class="scores" id="knowledegscore">
+                                <option value="">(Kindy select)</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                        </td>
+                        <td><input type="text" class="comments editable"></td>
+                    </tr>
+                    <tr>
+                        <td>PREPAREDNESS</td>
+                        <td>
+                            <select class="scores" id="preparednessscore">
+                                <option value="">(Kindy select)</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                        </td>
+                        <td><input type="text" class="comments editable"></td>
+                    </tr>
+                    <tr>                        
+                        <td>EXECUTION EFFICIENCY</td>
+                        <td>
+                            <select class="scores" id="efficiencyscore">
+                                <option value="">(Kindy select)</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                        </td>
+                        <td><input type="text" class="comments editable"></td>
+                    </tr>
+                    <tr>
+                        <td>COMMUNICATION</td>
+                        <td>
+                            <select class="scores" id="communicationscore">
+                                <option value="">(Kindy select)</option>
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                <option value="D">D</option>
+                                <option value="F">F</option>
+                            </select>
+                        </td>
+                       <td><input type="text" class="comments editable"></td>
+                    </tr>
+                    <tr>
+                        <td class="overall"><strong>OVERALL GRADE</strong></td>
+                        <td colspan="2" class="overall">
+                            <select id="overallGrade">
+                                <option value="">(Select Overall Grade)</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                            <b>10, 9, 8, 7, 6, 5, 4, 3, 2, 1,  
+                            (NOTE: 1-Bad... 10 - Great/Excellent)</b>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="remarks-section">
+                <div><strong>ADDITIONAL REMARKS / OVERALL REMARKS.</strong></div>
+                <textarea placeholder="Additional remarks..."></textarea>
+
+                <div style="margin-top: 25px;"><strong>COMMENTS (Explain Any No Response or Views on Client comment)</strong></div>
+                <textarea placeholder="Comments..."></textarea>
+            </div>
+
+            <!--SIGNATURE SECTION-->
+            <div class="signature-section">
+                <div class="signature-box">
+                    <strong>Engineer</strong>
+                    <div>Sign:<select class="sign" value="">
+                        <option value="">Kindly sign here</option>    
+                        <option value="pending">Pending</option>    
+                        <option value="signed">Signed</option>    
+                        <option value="declined">Declined</option>    
+                    </select>
+                    </div>
+                    <div class="name-row">Name: <input type="text" class="name" placeholder="Kindly fill in your name"></div>
+                </div>
+                <div class="signature-box">
+                    <strong>Client Representative</strong>
+                    <div>Sign:<select class="sign">
+                            <option value="">Kindly sign here</option>  
+                            <option value="pending">Pending</option>
+                            <option value="signed">Signed</option>
+                            <option value="declined">Declined</option>
+                        </select>
+                    </div>
+                    <div class="name-row">Name: <input type="text" class="name" placeholder="Kindly fill in your name"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
